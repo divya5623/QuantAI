@@ -121,25 +121,31 @@ DevOps and Deployment
 
 System Architecture
 
-                 User
-                   |
-                   |
-            Frontend Dashboard
-                   |
-                   |
-             FastAPI Backend
-                   |
-        ---------------------------------
-        |         |         |            |
-     Portfolio   Risk      AI      Order Engine
-        |         |         |            |
-        ---------------------------------
-                   |
-               PostgreSQL
-                   |
-             Market Data APIs
-                   |
-          Financial Data Processing
+User
+
+↓
+
+Frontend Dashboard
+
+↓
+
+FastAPI Backend
+
+↓
+
+Portfolio | Risk Engine | AI Engine | Order Matching Engine
+
+↓
+
+PostgreSQL
+
+↓
+
+Market Data APIs
+
+↓
+
+Financial Data Processing
 
 ---
 
@@ -163,19 +169,19 @@ Repository Structure
 
 QuantAI/
 
-frontend/
-backend/
-database/
-authentication/
-portfolio/
-market-data/
-order-matching-engine/
-risk-engine/
-ai-engine/
-backtesting/
-deployment/
-tests/
-docs/
+- frontend/
+- backend/
+- database/
+- authentication/
+- portfolio/
+- market-data/
+- order-matching-engine/
+- risk-engine/
+- ai-engine/
+- backtesting/
+- deployment/
+- tests/
+- docs/
 
 ---
 
