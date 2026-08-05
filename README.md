@@ -1,4 +1,4 @@
-QuantAI
+QuantAI 
 
 Building Intelligent Financial Systems with AI and Quantitative Analytics
 
